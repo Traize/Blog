@@ -6,6 +6,6 @@ router.post('/', postController.create)
 router.get('/', postController.getAll)
 router.get('/:id', postController.getOne)
 router.put('/:id', postController.change)
-router.delete('/:id', postController.deleteOne)
+router.delete('/:id', postController.delete)
 
 module.exports = router

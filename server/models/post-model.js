@@ -5,7 +5,6 @@ const post = new Schema({
     description: {type: String, required: true},
     img: {type: String},
     cover: {type: String},
-    tag: [{type:ObjectId, ref: 'Tag'}],
 })
 
 module.exports = model('Post', post)
