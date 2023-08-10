@@ -1,11 +1,11 @@
 import React from 'react';
-import PostList from './components/PostList'; 
+import './App.css';
+import PostList from './components/postList/postList'; 
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <PostList/>
-      <h1>Работаем</h1>
     </div>
   );
 }

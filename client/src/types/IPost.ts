@@ -11,7 +11,6 @@ export interface IPost {
 export interface PostState {
     posts: IPost[];
     error: null | string;
-    isLoading: boolean;
     page: number;
     limit: number;
 }
